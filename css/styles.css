@@ -127,6 +127,10 @@ h2, .h2 {
   }
 }
 
+h2:not(.masthead-subheading){
+  color:#eb5e96;
+}
+
 h3, .h3 {
   font-size: calc(1.3rem + 0.6vw);
 }
@@ -3031,13 +3035,13 @@ textarea.form-control-lg {
 
 .btn-primary {
   color: #fff;
-  background-color: #ee0979;
-  border-color: #ee0979;
+  background-color: #eb8db2;
+  border-color: #994868 ;
 }
 .btn-primary:hover {
   color: #fff;
-  background-color: #ca0867;
-  border-color: #be0761;
+  background-color: #eb5e96;
+  border-color: #994868 ;
 }
 .btn-check:focus + .btn-primary, .btn-primary:focus {
   color: #fff;
